@@ -116,6 +116,48 @@ section {
 .navbar ul li a:hover {
   text-decoration: underline;
 }
+.products {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.product {
+  background: #ffffff;
+  width: 260px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.product img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.product h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+}
+
+.product p {
+  margin: 0 0 15px;
+  font-weight: 500;
+}
+
+.product button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  opacity: 0.8;
+}
+
 
 
 
