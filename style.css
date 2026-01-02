@@ -85,6 +85,39 @@ button {
 section {
   padding: 80px 60px;
 }
+/* NAVBAR FIX */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #f9f6f1;
+}
+
+.navbar ul {
+  list-style: none;        /* removes bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;           /* makes items horizontal */
+  gap: 30px;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;   /* removes underline */
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+
 
 
 
