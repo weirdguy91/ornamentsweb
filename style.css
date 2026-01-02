@@ -49,3 +49,15 @@ header h1 {
   width: 250px;
   margin: auto;
 }
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f6f1;
+  color: #222;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+
