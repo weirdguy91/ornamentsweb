@@ -159,6 +159,13 @@ section {
 }
 
 
+.products {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;   /* important for small screens */
+}
+
 
 
 
